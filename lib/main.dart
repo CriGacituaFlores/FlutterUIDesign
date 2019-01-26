@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
                 ReviewList(),
               ],
             ),
-            GradientBack(),
+            GradientBack("Popular"),
           ],
         )
       )//MyHomePage(title: 'Flutter Demo Home Page'),
