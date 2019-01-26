@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'description_place.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -24,9 +26,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("Hola mundo")
         ),
-        body: Center(
-          child: Text("Holaaa chamo")
-        ),
+        body: new DescriptionPlace(),
       )//MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
