@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:patatrip/pata_trips.dart';
 import 'description_place.dart';
 import 'review_list.dart';
 import 'gradient_back.dart';
@@ -29,21 +30,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(
-        //body: new DescriptionPlace("Bahamas", 4, descriptionDummy),
-        //body: ReviewList(),
-        body: Stack(
-          children: <Widget>[
-            ListView(
-              children: <Widget>[
-                DescriptionPlace("Bahamas", 4, descriptionDummy),
-                ReviewList(),
-              ],
-            ),
-            HeaderAppBar(),
-          ],
-        )
-      )//MyHomePage(title: 'Flutter Demo Home Page'),
+      home: PataTrips()
     );
   }
 }
