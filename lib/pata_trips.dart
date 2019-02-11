@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'home_trip.dart';
 import 'search.dart';
-import 'profile_trips.dart';
+import 'package:patatrip/profile/profile_trips.dart';
 
 class PataTrips extends StatefulWidget {
 

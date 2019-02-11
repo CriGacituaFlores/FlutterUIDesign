@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:patatrip/home_trip.dart';
-import 'package:patatrip/profile_trips.dart';
+import 'package:patatrip/profile/profile_trips.dart';
 import 'package:patatrip/search.dart';
 
 class PataTripsCupertino extends StatelessWidget {
